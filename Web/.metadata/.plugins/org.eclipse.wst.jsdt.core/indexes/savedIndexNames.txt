@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Users\Yoshitomi\Documents\GitHub\sdsr\Web\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2645764912.index
+3353027663.index
+1258899623.index
+3079439228.index
+225910628.index
