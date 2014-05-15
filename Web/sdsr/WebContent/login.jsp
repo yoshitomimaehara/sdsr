@@ -10,7 +10,7 @@
 </head>
 <body>
 	<section class="small-6 small-centered medium-6 medium-centered columns">
-		<form method="post">
+		<form method="post" action="login">
 			<label>Usuario</label>
 			<br>
 			<input type="text" name="usuario"/>

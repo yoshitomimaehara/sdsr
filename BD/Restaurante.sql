@@ -15,7 +15,7 @@ BEGIN
 	DBMS_OUTPUT.PUT_LINE('Inicio del proceso...');
 END;
 /
---SET TERMOUT OFF
+SET TERMOUT OFF
 
 --================================
 -- Creando el Esquema
@@ -64,7 +64,7 @@ constraint chk_producto_stock
 -- Crear la Tabla de Clientes:cliente
 --===================================
 create table cliente(
-dni char(11) not null,
+dni char(8) not null,
 nomcliente varchar2(100) not null,
 Direccioncliente varchar2(100) not null,
 constraint pk_cliente
@@ -79,7 +79,7 @@ constraint u_nomcliente
 --===================================
 create table pedido(
 nropedido char(7) not null,
-dni char(11) not null,
+dni char(8) not null,
 fecha date not null,
 subtotalpedido number(5,2) not null,
 igv    number(5,2) not null,
@@ -160,4 +160,11 @@ create table auditoria(
  references usuario
 );
 
-DBMS_OUTPUT.PUT_LINE('Fin del proceso...');
+SET TERMOUT ON
+SET ECHO OFF
+SET SERVEROUTPUT ON
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('Fin del proceso...');
+END;
+/
+SET TERMOUT OFF

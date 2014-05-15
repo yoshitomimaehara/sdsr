@@ -257,4 +257,4 @@ insert into detallepedido(nropedido,codproducto,cant,preciototal) values ('00059
 */
 
 
-commit
+commit;

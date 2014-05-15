@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="dao.util.AccesoDB"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="model.Loginmodel"/>
+<fullyQualifiedTypeName name="dao.spec.ILogin"/>
+<fullyQualifiedTypeName name="dao.impl.Logindao"/>
+</qualifiedTypeNameHistroy>
