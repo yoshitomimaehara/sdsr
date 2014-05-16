@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="dao.util.AccesoDB"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="model.Loginmodel"/>
 <fullyQualifiedTypeName name="dao.spec.ILogin"/>
 <fullyQualifiedTypeName name="dao.impl.Logindao"/>
+<fullyQualifiedTypeName name="model.Loginmodel"/>
+<fullyQualifiedTypeName name="entity.Cliente"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="interfaces.ILoginDao"/>
+<fullyQualifiedTypeName name="dao.impl.LoginDao"/>
+<fullyQualifiedTypeName name="dao.spec.ILoginDao"/>
+<fullyQualifiedTypeName name="dao.spec.IMensajesDao"/>
+<fullyQualifiedTypeName name="dao.util.AccesoDB"/>
+<fullyQualifiedTypeName name="dao.impl.MensajeDao"/>
+<fullyQualifiedTypeName name="dao.spec.IMensajeDao"/>
 </qualifiedTypeNameHistroy>
