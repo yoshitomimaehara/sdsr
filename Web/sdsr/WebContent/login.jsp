@@ -6,19 +6,28 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/foundation.css" />
-	<title>..::Sistema de Servicios de Restaurantes::..</title>
+	<link rel="stylesheet" href="css/estilos.css" />
+	<title>..::Sistema de Servicios de Restaurantes::.. - Login</title>
 </head>
 <body>
-	<section class="small-6 small-centered medium-6 medium-centered columns">
-		<form method="post" action="login">
+	<section class="box">
+		<form method="post" action="LoginIngreso">
 			<label>Usuario</label>
 			<br>
-			<input type="text" name="usuario"/>
+			<input type="text" name="usuario" class="large-12"/>
+			<br>
 			<br>
 			<label>Contraseña</label>
 			<br>
-			<input type="text" name="contrasenia"/>
+			<input type="text" name="contrasenia" class="large-12"/>
+            <br>
+            <br>
+            <input type="submit" value="Ingresar" class="button">
+            <a href=# id="enlaceolvidopass">¿Se ha olvidado la contraseña?</a>
 		</form>
+		<c:if test="${requestScope.error != null}">
+			${requestScope.error}	
+		</c:if>
 	</section>
 	<footer>
 	</footer>

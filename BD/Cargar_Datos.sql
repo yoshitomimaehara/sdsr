@@ -256,5 +256,18 @@ insert into detallepedido(nropedido,codproducto,cant,preciototal) values ('00059
 insert into detallepedido(nropedido,codproducto,cant,preciototal) values ('0005997','EN02','4','40');
 */
 
+-- ====================================
+-- Cargar datos a la tabla usuario
+-- ====================================
+insert into usuario(usuario,contrasenia,tipo)
+values('admin','superusuario','S');
+
+-- ====================================
+-- Cargar datos a la tabla mensaje
+-- ====================================
+insert into mensaje(codmensaje,mensaje)
+values('000001','El Usuario no Existe');
+insert into mensaje(codmensaje,mensaje)
+values('000002','La Contraseña es Incorrecta');
 
 commit;

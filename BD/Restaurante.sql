@@ -1,10 +1,13 @@
-/*
-* 
-*
-*
-*
-*
-*/
+/**
+ *
+ * DBMS           :  ORACLE
+ * Base de Datos  :  RESTAURANTE
+ * Descripción    :  
+ * Script         :  Crea la esquema
+ * Creado por     :  Prosoft
+ * Email          :  yoshitomimaehara@gmail.com
+ *
+**/
 -- ==========================================================
 -- Inicio de Proceso
 -- ==========================================================
@@ -159,6 +162,19 @@ create table auditoria(
  foreign key(usuario)
  references usuario
 );
+
+-- ========================================
+-- Crear la tabla de Mensaje
+-- ========================================
+create table mensaje(
+	codmensaje char(6) not null,
+	mensaje varchar2(100) not null,
+	constraint pk_mensaje 
+		primary key(codmensaje)
+  );
+
+
+
 
 SET TERMOUT ON
 SET ECHO OFF
